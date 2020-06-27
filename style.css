@@ -1,0 +1,57 @@
+body {
+  padding-top: 75px;
+}
+
+#pagewrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+form {
+  font-family: 'IBM Plex Mono', monospace;
+  justify-content: center;
+  text-align: center;
+  background-color: AliceBlue;
+  padding: 35px;
+}
+
+.main {
+  margin: 35px;
+  background-color: WhiteSmoke;
+}
+
+h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+#packages,
+#what_we_do,
+#who_we_are {
+  margin: 25px;
+  padding: 60px;
+  background-color: AliceBlue;
+}
+
+#iframe {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 20em;
+  height: 20em;
+}
+
+#footer {
+  text-align: center;
+}
